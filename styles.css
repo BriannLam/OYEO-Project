@@ -1,0 +1,41 @@
+
+body{
+    margin: 0;
+    height: auto;
+    overflow-x: hidden;
+}
+
+
+.website{
+    width: 80vw;
+    
+}
+
+.background{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    background-color: black;
+    width: 100vw;
+    display: flex;
+}
+
+.headerContainer{
+    background-color: aqua;
+    display: flex;
+    padding-top: 3%;
+    padding-left: 10%;
+}
+
+
+
+p1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.brandLogo{
+    font-size: 6vh;
+}
