@@ -8,34 +8,77 @@ body{
 
 .website{
     width: 80vw;
+    padding-left: 10vw;
     
 }
 
-.background{
-    background-color: white;
-    width: 100%;
-    height: 100%;
-}
 
+/* <------------ header ---------------> */
 .header{
-    background-color: black;
-    width: 100vw;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5vh;
 }
 
 .headerContainer{
-    background-color: aqua;
-    display: flex;
-    padding-top: 3%;
-    padding-left: 10%;
-}
-
-
-
-p1{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 3vh;
+   padding-right: 15px;
+   padding-left: 15px;
 }
 
 .brandLogo{
-    font-size: 6vh;
+    font-size: 4vw;
+    font-weight: 600;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+}
+
+li a{
+    font-size: 18px;
+    margin-right: 25px;
+}
+/* <------------ header ---------------> */
+
+.hero{
+    width: 100%;
+    height: auto;
+    background-color: #F7F7F7;
+    display: flex;
+
+}
+
+h1{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+p2{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.heroText{
+    padding-top: 6vh;
+    padding-left: 5vw;
+    padding-bottom: 4vh;
+    width: 40%;
+}
+
+.heroBox{
+    background-color: #E4E4E4;
+    width: 40%;
+    height: auto;
+    border-bottom-left-radius: 5000px;
 }
