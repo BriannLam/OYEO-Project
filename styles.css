@@ -43,12 +43,14 @@ li a{
     margin-right: 25px;
 }
 /* <------------ header ---------------> */
+/* <------------ hero ---------------> */
 
 .hero{
     width: 100%;
     height: auto;
     background-color: #F7F7F7;
     display: flex;
+    border-bottom: 15px #E4E4E4;
 
 }
 
@@ -73,12 +75,58 @@ p2{
     padding-top: 6vh;
     padding-left: 5vw;
     padding-bottom: 4vh;
-    width: 40%;
+    width: 50%;
 }
 
 .heroBox{
     background-color: #E4E4E4;
+    width: 50%;
+    height: auto;
+    border-bottom-left-radius: 100%;
+}
+
+.heroButton{
+    background-color: #BEBEBE;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin-top: 2vh;
+    padding: 2vh;
+    border: 3vh;
+    border-radius: 10px;
+}
+
+/* <------------ hero ---------------> */
+
+.quote{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+
+.quoteText{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-bottom: 4vh;
+    width: 50%;
+}
+
+.quoteCircleLocation{
     width: 40%;
     height: auto;
-    border-bottom-left-radius: 5000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteCircle{
+    background-color: #E4E4E4;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
 }
